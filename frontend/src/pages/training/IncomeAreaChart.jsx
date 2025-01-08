@@ -45,8 +45,8 @@ export default function IncomeAreaChart({ slot }) {
       xaxis: {
         categories:
           slot === 'month'
-            ? ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-            : ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+            ? ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
+            : ['月', '火', '水', '木', '金', '土', '日'],
         labels: {
           style: {
             colors: [
@@ -86,25 +86,25 @@ export default function IncomeAreaChart({ slot }) {
 
   const [series, setSeries] = useState([
     {
-      name: 'Page Views',
+      name: '体重',
       data: [0, 86, 28, 115, 48, 210, 136]
     },
-    {
-      name: 'Sessions',
-      data: [0, 43, 14, 56, 24, 105, 68]
-    }
+    // {
+    //   name: 'Sessions',
+    //   data: [0, 43, 14, 56, 24, 105, 68]
+    // }
   ]);
 
   useEffect(() => {
     setSeries([
       {
-        name: 'Page Views',
+        name: '体重',
         data: slot === 'month' ? [76, 85, 101, 98, 87, 105, 91, 114, 94, 86, 115, 35] : [31, 40, 28, 51, 42, 109, 100]
       },
-      {
-        name: 'Sessions',
-        data: slot === 'month' ? [110, 60, 150, 35, 60, 36, 26, 45, 65, 52, 53, 41] : [11, 32, 45, 32, 34, 52, 41]
-      }
+      // {
+      //   name: 'Sessions',
+      //   data: slot === 'month' ? [110, 60, 150, 35, 60, 36, 26, 45, 65, 52, 53, 41] : [11, 32, 45, 32, 34, 52, 41]
+      // }
     ]);
   }, [slot]);
 

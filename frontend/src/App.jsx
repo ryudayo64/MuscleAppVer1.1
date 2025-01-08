@@ -10,7 +10,7 @@ import ScrollTop from 'components/ScrollTop';
 
 export default function App() {
   return (
-    <ThemeCustomization>
+    <ThemeCustomization mode="dark">
       <ScrollTop>
         <RouterProvider router={router} />
       </ScrollTop>

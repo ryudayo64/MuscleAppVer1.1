@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\get_MuscleController;
 use App\Http\Controllers\get_WorkOutContinuousDays;
 use App\Http\Controllers\WorkOutContinuousDays;
 use Illuminate\Support\Facades\Route;
@@ -13,6 +14,8 @@ Route::get('/WorkOutContinuousDays', [WorkOutContinuousDays::class, 'WorkOutCont
 
 // 筋トレ年月日取得
 Route::get('/get_WorkOutContinuousDays', [get_WorkOutContinuousDays::class, 'get_WorkOutContinuousDays']);
+
+Route::get('/get_s_muscle', [get_MuscleController::class, 'get_MuscleController']);
 
 
 // Cors

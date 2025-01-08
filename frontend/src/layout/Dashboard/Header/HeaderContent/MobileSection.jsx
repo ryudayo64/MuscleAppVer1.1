@@ -52,7 +52,7 @@ export default function MobileSection() {
 
   return (
     <>
-      <Box sx={{ flexShrink: 0, ml: 0.75 }}>
+      <Box sx={{ flexShrink: 0 /*ml: 0.75*/ }}>
         <IconButton
           sx={{ color: 'text.primary', bgcolor: open ? iconBackColorOpen : iconBackColor }}
           aria-label="open more menu"

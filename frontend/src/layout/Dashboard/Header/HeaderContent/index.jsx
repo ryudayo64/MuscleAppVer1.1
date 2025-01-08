@@ -17,12 +17,13 @@ import { GithubOutlined } from '@ant-design/icons';
 
 export default function HeaderContent() {
   const downLG = useMediaQuery((theme) => theme.breakpoints.down('lg'));
+  const downSM = useMediaQuery((theme) => theme.breakpoints.down('sm'));
 
   return (
     <>
       {!downLG && <Search />}
-      {downLG && <Box sx={{ width: '100%', ml: 1 }} />}
-      <IconButton
+      {!downSM && <Box sx={{ width: '100%', ml: 1 }} />}
+      {/* <IconButton
         component={Link}
         href="https://github.com/codedthemes/mantis-free-react-admin-template"
         target="_blank"
@@ -32,9 +33,9 @@ export default function HeaderContent() {
         sx={{ color: 'text.primary', bgcolor: 'grey.100' }}
       >
         <GithubOutlined />
-      </IconButton>
+      </IconButton> */}
 
-      <Notification />
+      {/* <Notification /> */}
       {!downLG && <Profile />}
       {downLG && <MobileSection />}
     </>
