@@ -21,9 +21,15 @@ const TrainingHistory = () => {
                 <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
                   セット
                 </TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">重さ（kg）</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">回数</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">RM（kg）</TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  重さ（kg）
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  回数
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  RM（kg）
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -50,9 +56,15 @@ const TrainingHistory = () => {
                 <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
                   セット
                 </TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">重さ（kg）</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">回数</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">RM（kg）</TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  重さ（kg）
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  回数
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  RM（kg）
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -79,9 +91,15 @@ const TrainingHistory = () => {
                 <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
                   セット
                 </TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">重さ（kg）</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">回数</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">RM（kg）</TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  重さ（kg）
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  回数
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  RM（kg）
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -108,9 +126,15 @@ const TrainingHistory = () => {
                 <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
                   セット
                 </TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">重さ（kg）</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">回数</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">RM（kg）</TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  重さ（kg）
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  回数
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  RM（kg）
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -137,9 +161,15 @@ const TrainingHistory = () => {
                 <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
                   セット
                 </TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">重さ（kg）</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">回数</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">RM（kg）</TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  重さ（kg）
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  回数
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  RM（kg）
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -166,9 +196,15 @@ const TrainingHistory = () => {
                 <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
                   セット
                 </TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">重さ（kg）</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">回数</TableCell>
-                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">RM（kg）</TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  重さ（kg）
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  回数
+                </TableCell>
+                <TableCell sx={{ padding: '10px', fontSize: '0.6rem' }} align="center">
+                  RM（kg）
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -184,40 +220,23 @@ const TrainingHistory = () => {
           </Table>
         </TableContainer>
       </Box>
-
-      
     </>
   );
-  return (
-    <div style={{ position: 'relative' }}>
-      {trainingHistory}
-      <IconButton
-        sx={{
-          bgcolor: '#FFF500',
-          color: '#1F1F1F',
-          width: '34px',
-          height: '34px',
-          position: 'relative' // IconButtonにrelativeを適用
-        }}
-      >
-        <Link
-          to="/TrainingMenuList"
-          sx={{
-            position: 'absolute', // Linkにabsoluteを適用
-            bottom: '0',
-            right: '0',
-            width: '100%', // 親要素の幅いっぱいに広げる
-            height: '100%', // 親要素の高さいっぱいに広げる
-            textDecoration: 'none',
-            display: 'flex',
-            alignItems: 'center', // アイコンを中央揃え
-            justifyContent: 'center', // アイコンを中央揃え
-            '&:hover': { border: '1.5px solid #FFF500' }
-          }}
-        >
+
+  const addMenu = (
+    <div className="add-menu-button-area">
+      <IconButton className="training-add-button">
+        <Link to="/training-menu-list" className="training-add-button-link">
           <AddIcon />
         </Link>
       </IconButton>
+    </div>
+  );
+
+  return (
+    <div style={{ position: 'relative' }}>
+      {trainingHistory}
+      {addMenu}
     </div>
   );
 };

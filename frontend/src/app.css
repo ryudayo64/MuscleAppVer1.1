@@ -23,7 +23,7 @@
 }
 
 .quote_fetcher {
-    background-color: #efefef;
+    /* background-color: #efefef; */
     /* padding: 2px; */
 
     margin: 20px 0px;
@@ -46,4 +46,86 @@
     display: flex;
     align-items: center;
     justify-content: right;
+}
+
+/* トレーニング履歴、トレーニングメニュー追加ボタンエリア */
+.add-menu-button-area {
+    width: 100%;
+    text-align: right;
+}
+
+/* メニュー追加ボタン */
+.training-add-button {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border: 1.5px solid #FFF500;
+}
+
+.training-add-button:hover {
+    background-color: #FFF500;
+}
+
+.training-add-button-link {
+    display: flex;
+    color: #FFF500;
+}
+
+.training-add-button-link:hover {
+    color: #1F1F1F;
+}
+
+.training-menu-list {
+    margin-bottom: 100px;
+}
+
+.training-menu-list-detail {
+    margin-bottom: 20px;
+}
+
+.menu-register {
+    width: 100% !important;
+    justify-content: left !important;
+    color: #ffffff !important;
+}
+
+.menu-register:hover {
+    background-color: #1e1e1e !important;
+}
+
+.rest-count {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.rest-count-number {
+    text-align: right;
+    font-size: 30px;
+  }
+.rest-count-cancel-button {
+    padding: 10px;
+    border: 1px solid #FFF500;
+    color: #FFF500 !important;
+    border-radius: 50px;
+}
+
+
+.rest-count-cancel-button:hover {
+    background-color: #FFF500;
+    color: #1F1F1F !important;
+}
+
+.rest-count-start-button {
+    padding: 10px;
+    border: 1px solid #FFF500;
+    background-color: #FFF500;
+    color: #1F1F1F !important;
+    border-radius: 50px;
+}
+
+.rest-count-start-button:hover {
+    background-color: #FFF500;
+    color: #1F1F1F !important;
 }

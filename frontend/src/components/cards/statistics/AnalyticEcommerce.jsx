@@ -1,27 +1,15 @@
-import { useState } from 'react';
 import PropTypes from 'prop-types';
-import Stack from '@mui/material/Stack';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
 import MainCard from 'components/MainCard';
 
+import Box from '@mui/material/Box';
 import MuscleContinuouDays from './TrainingPage/MuscleContinuouDays';
 import RMCounter from './TrainingPage/RMCounter';
 import QuoteFetcher from './TrainingPage/QuoteFetcher';
 import TrainingHistory from './TrainingPage/TrainingHistory';
 
-export default function AnalyticEcommerce({ /*color = 'primary', */ title /*count, percentage, isLoss, extra */ }) {
-  // const [MuscleCountValue, setMuscleCountValue] = useState('');
-
-  
-
+export default function AnalyticEcommerce({ title }) {
   return (
     <MainCard contentSX={{ p: 2.25 }}>
-      {/* <Stack spacing={0.5}>
-          <Typography variant="h4" color="">
-            {title}
-          </Typography>
-      </Stack> */}
       <Box sx={{ pt: 1 }}>
         {title === '履歴' ? <TrainingHistory /> : ''}
         {title === '筋トレ' ? <MuscleContinuouDays /> : ''}

@@ -29,6 +29,7 @@ import '@fontsource/public-sans/700.css';
 
 // project import
 import App from './App';
+import 'app.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
